@@ -8,6 +8,10 @@
   height: auto;
 }
 
+.LogoMobile {
+  display: none;
+}
+
 .Sneakers-header {
   background-color: #ffffff;
   display: flex;
@@ -21,7 +25,7 @@
   align-items: center;
 }
 
-.Brands-logo { 
+.Brands-logo {
   height: 98px;
   width: 98px;
   display: flex;
@@ -55,26 +59,26 @@
 }
 
 #wrapper .text {
-  position:relative;
-  bottom:65px;
-  left:0px;
-  visibility:hidden;
-  }
-  
-  #wrapper:hover .text {
-  visibility:visible;
-  color:white;
+  position: relative;
+  bottom: 65px;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper:hover .text {
+  visibility: visible;
+  color: white;
   background-color: #000000;
-  width:576px;
+  width: 576px;
   position: relative;
   left: 5px;
-  }
-  
+}
+
 
 
 .Inter2 {
   width: 576px;
-  height:320px;
+  height: 320px;
   margin: 5px;
   position: relative;
   left: -52%;
@@ -88,4 +92,96 @@
   margin: 5px;
   position: relative;
   bottom: -25%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .Sneakers {
+    text-align: center;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+
+  .LogoMobile {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Sneakers-logo {
+    display: none;
+  }
+
+  .Sneakers-header {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Sneakers-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Brands-logo {
+    display: none;
+  }
+
+  .Inter123 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Imgs {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Inter1 {
+    margin: 5px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Inter2 {
+    margin: 5px;
+    margin-left: 68px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .Inter3 {
+    margin: 5px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #wrapper .text {
+    display: none;
+  }
+
+
 }

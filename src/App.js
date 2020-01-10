@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./Assets/01-Principal_Desktop.jpg";
+import logomob from "./Assets/02-Principal_Mobile.jpg";
 import vans from "./Assets/logotipos/01.jpg";
 import puma from "./Assets/logotipos/02.jpg";
 import newera from "./Assets/logotipos/03.jpg";
@@ -21,6 +22,7 @@ function App() {
     <div className="Sneakers">
       <header className="Sneakers-header">
         <img src={logo} className="Sneakers-logo" alt="logo" />
+        <img src={logomob} className="LogoMobile" alt="banner" />
         <div className="Brands-logo">
           <img src={vans} alt="vans" />
           <img src={puma} alt="puma" />
@@ -39,8 +41,15 @@ function App() {
         <div className="Imgs">
           <div className="Inter123">
             <div id="wrapper">
-            <img src={inter1} className="Inter1" alt="imagem intermediaria 1" />
-            <p class="text">50 ANOS DE SUPERTAR<br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <img
+                src={inter1}
+                className="Inter1"
+                alt="imagem intermediaria 1"
+              />
+              <p class="text">
+                50 ANOS DE SUPERTAR<br></br>Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.{" "}
+              </p>
             </div>
             <img src={inter3} className="Inter3" alt="imagem intermediaria 3" />
           </div>
